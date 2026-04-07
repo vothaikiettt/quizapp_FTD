@@ -1,0 +1,14 @@
+/* Căn giữa toàn bộ header */
+img {
+  width: 80px;
+  display: block;
+  margin: 20px auto 10px;
+}
+
+/* Tiêu đề */
+h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #14d7f0;
+  margin-bottom: 20px;
+}

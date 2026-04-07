@@ -1,0 +1,61 @@
+/* Khung chính */
+.id {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Card câu hỏi */
+.question {
+  background: #ffffff;
+  padding: 20px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Câu hỏi */
+.question h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Danh sách đáp án */
+.answer {
+  list-style: none;
+  padding: 0;
+}
+
+/* từng đáp án */
+.ans {
+  margin: 10px 0;
+}
+
+/* nút đáp án */
+.ans button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #e0e0e0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+button.answered {
+  background-color: orange;
+  color: white;
+}
+
+button.right {
+  background-color: green;
+  color: white;
+}
+
+button.wrong {
+  background-color: red;
+  color: white;
+}

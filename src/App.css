@@ -1,0 +1,21 @@
+/* nền toàn trang */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* Header riêng */
+header {
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* phần main chứa câu hỏi */
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
